@@ -60,7 +60,7 @@ route.put("/update/:courseId",async (req,res)=>{
             )
             res.json(course);
         }catch(error){
-            res.json("Course Are Not Present!!");
+            res.json("Course Are Not Present in our database");
         }
 });
 
